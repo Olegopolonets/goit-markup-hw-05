@@ -696,7 +696,8 @@ button:focus .modal-btn-icon {
   text-transform: uppercase;
   margin-bottom: 16px;
 }
-.modal-form {
+.modal-row {
+  margin-bottom: 8px;
 }
 .modal-label {
   display: block;
