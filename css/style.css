@@ -802,7 +802,7 @@ button:focus .modal-btn-icon {
   margin-bottom: 24px;
 }
 
-.modal-agreement-input:checked ~ .modal-checkbox {
+modal-agreementmodal-agreement {
   color: #404bbf;
   border: none;
   fill: #f4f4fd;
