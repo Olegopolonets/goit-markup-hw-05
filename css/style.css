@@ -803,7 +803,7 @@ button:focus .modal-btn-icon {
 }
 
 .modal-agreement-input:checked + .modal-agreement > .modal-checkbox {
-  color: #404bbf;
+  background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
