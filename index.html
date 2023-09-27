@@ -581,29 +581,33 @@
             </div>
           </div>
 
-          <label for="comment" class="modal-label">Comment</label>
-          <textarea
-            class="modal-comment-field"
-            name="comment"
-            id="comment"
-            rows="4"
-            placeholder="Text input"
-          ></textarea>
+          <div class="modal-comment">
+            <label for="comment" class="modal-label">Comment</label>
+            <textarea
+              class="modal-comment-field"
+              name="comment"
+              id="comment"
+              rows="4"
+              placeholder="Text input"
+            ></textarea>
+          </div>
 
-          <label for="checkbox" class="modal-agreement">
-            <input type="checkbox" class="modal-agreement-input" name="checkbox" id="checkbox" />
-            <span class="modal-checkbox">
-              <svg class="modal-checkbox-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-check-mark"></use>
-              </svg>
-            </span>
-            <span
-              >I accept the terms and conditions of the
-              <a href="#" target="_blank" class="modal-agreement-link" rel="noopener noreferrer"
-                >Privacy Policy
-              </a>
-            </span>
-          </label>
+          <div class="modal-privacy">
+            <label for="checkbox" class="modal-agreement">
+              <input type="checkbox" class="modal-agreement-input" name="checkbox" id="checkbox" />
+              <span class="modal-checkbox">
+                <svg class="modal-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check-mark"></use>
+                </svg>
+              </span>
+              <span
+                >I accept the terms and conditions of the
+                <a href="#" target="_blank" class="modal-agreement-link" rel="noopener noreferrer"
+                  >Privacy Policy
+                </a>
+              </span>
+            </label>
+          </div>
 
           <button type="submit" class="btn-submit hero-button">Send</button>
         </form>
