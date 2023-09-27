@@ -802,6 +802,12 @@ button:focus .modal-btn-icon {
   margin-bottom: 24px;
 }
 
+.modal-agreement-input:checked ~ .modal-checkbox {
+  color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+/*
 .modal-agreement-input:checked + .modal-checkbox > .modal-checkbox-icon {
   opacity: 1;
   fill: #fff;
@@ -811,7 +817,7 @@ button:focus .modal-btn-icon {
   background-color: #404bbf;
   border-color: transparent;
 }
-
+*/
 .modal-agreement-link {
   color: #4d5ae5;
   font-size: 12px;
