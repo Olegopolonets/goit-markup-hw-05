@@ -699,6 +699,11 @@ button:focus .modal-btn-icon {
 .modal-row {
   margin-bottom: 8px;
 }
+
+.modal-comment {
+  margin-bottom: 16px;
+}
+
 .modal-label {
   display: block;
   color: #8e8f99;
@@ -765,17 +770,16 @@ button:focus .modal-btn-icon {
 }
 
 .modal-agreement {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  display: block;
   margin-bottom: 24px;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.48px;
+  color: #8e8f99;
 }
 
 .modal-agreement-input {
-  appearance: none;
+  display: block;
 }
 
 .modal-checkbox {
