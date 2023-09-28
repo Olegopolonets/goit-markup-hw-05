@@ -751,10 +751,11 @@ button:focus .modal-btn-icon {
   text-align: center;
   font-style: normal;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
-  text-transform: uppercase;
   margin-bottom: 16px;
+  font-size: 16px;
 }
 .modal-row {
   margin-bottom: 8px;
@@ -846,6 +847,7 @@ button:focus .modal-btn-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-right: 8px;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
