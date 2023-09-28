@@ -490,6 +490,7 @@ ul,
 }
 .sucscribe-form {
   display: flex;
+  gap: 24px;
 }
 
 .subscribe-caption {
@@ -500,6 +501,41 @@ ul,
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+
+.subscribe-email {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.subscribe-email::placeholder {
+  color: #ffffff;
+}
+
+.subscribe-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
 }
 
 /* portfolio */
