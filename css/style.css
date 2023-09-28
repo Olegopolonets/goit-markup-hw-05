@@ -430,7 +430,7 @@ ul,
   gap: 120px;
 }
 */
-.flexd {
+.flex-footer {
   display: flex;
   align-items: baseline;
 }
@@ -450,6 +450,10 @@ ul,
 .footer-inline-block {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-social-box {
+  margin-right: 80px;
 }
 
 .footer-social-title {

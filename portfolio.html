@@ -267,7 +267,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container flexd">
+      <div class="container flex-footer">
         <div class="footer-logo">
           <a class="logo link footer-inline-block" href="./index.html">
             Web<span class="logo-decor-footer">Studio</span>
@@ -277,7 +277,7 @@
             growth solutions.
           </p>
         </div>
-        <div class="footer-social">
+        <div class="footer-social-box">
           <p class="footer-social-title">Social media</p>
           <ul class="footer-socials list">
             <li class="footer-social-item">
@@ -333,6 +333,26 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="subscribe-wrapper">
+          <p class="subscribe-caption">Subscribe</p>
+          <form class="sucscribe-form">
+            <label for="email" class="subscribe-label">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+                class="subscribe-email"
+              />
+            </label>
+            <button type="submit" class="subscribe-button" value="Subscribe">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
